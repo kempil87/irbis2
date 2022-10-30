@@ -1,0 +1,42 @@
+.swiper-button-next,
+.swiper-button-prev {
+    right: 10px;
+    transition: linear .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(13px);
+    border-radius: 8px;
+    background-image: linear-gradient(hsla(0, 0%, 100%, .15), hsla(0, 0%, 100%, .15)), linear-gradient(rgba(59, 58, 62, .1), rgba(59, 58, 62, .1));
+    padding: 30px!important;
+    width: 50px!important;
+    height: 80px!important;
+    color: #ffffff !important;
+    fill: white !important;
+    stroke: white !important;
+}
+.swiper-button-next:hover,.swiper-button-prev:hover {
+    transition: linear .3s;
+    color: rgba(23, 52, 96, 0.7) !important;
+    fill: rgba(23, 52, 96, 0.7)  !important;
+    stroke: rgba(23, 52, 96, 0.7)  !important;
+    transform: scale(1.1);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    font-size: 38px!important;
+    width: 30px!important;
+    height: 40px!important;
+}
+.product-image-card:hover img{
+    transform: scale(1.07);
+    transition: linear.2s;
+}
+.product-image-wrapper {
+    overflow: hidden;
+    max-width: 260px;
+}
+.product-image-wrapper img{
+    transition: linear.2s;
+}

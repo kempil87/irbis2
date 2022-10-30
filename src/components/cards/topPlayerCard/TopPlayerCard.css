@@ -1,0 +1,17 @@
+.player-card-img{
+    height: 340px;
+    object-fit: cover;
+    transition: linear .3s;
+}
+.player-card-img-wrap{
+    overflow: hidden;
+    max-width: 320px;
+}
+.player-card{
+    cursor: pointer;
+}
+
+.player-card:hover .player-card-img{
+    transform: scale(1.06);
+    transition: linear .3s;
+}

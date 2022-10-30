@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body, html, #root {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+    flex: 1 0 auto;
+}
+
+.go-to-all-wrap div{
+    transition: linear .3s;
+    cursor:pointer;
+}
+
+.go-to-all-wrap:hover div {
+    transform: translateX(4px);
+    transition: linear .3s;
+}
+
+.go-to-all {
+    font-weight: 600;
+    padding-right: 12px;
+    position: relative;
+    color: #173460;
+    font-size: 15px;
+}
+
+.go-to-all:hover {
+    opacity: .8;
+    color: #173460;
+}
+.go-to-all-wrap:hover {
+    opacity: .8;
+    color: #173460;
+}
+
+/*.go-to-all:hover:before {*/
+/*    right: -10px;*/
+/*    transition: linear .3s;*/
+/*}*/
+
+/*.go-to-all:before {*/
+/*    right: 0;*/
+/*    top: 50%;*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    height: 2px;*/
+/*    width: 16px;*/
+/*    background: #173460;*/
+/*    color: #173460;*/
+/*    font-size: 15px;*/
+/*    transition: linear .3s;*/
+/*}*/

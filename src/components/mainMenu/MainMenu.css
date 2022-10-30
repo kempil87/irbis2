@@ -1,0 +1,12 @@
+.main-menu {
+    z-index: 1500;
+}
+
+.main-menu .ant-drawer-wrapper-body{
+    background-color: #212529;
+}
+.main-menu .ant-drawer-wrapper-body > div{
+    /*justify-content: center;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+}

@@ -1,0 +1,37 @@
+.footer-social-inst {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-social-vk {
+    width: 25px;
+    height: 25px;
+}
+
+.profile-icon {
+cursor: pointer;
+}
+
+.profile-icon-scroll g {
+    fill: black;
+}
+
+.footer-social-teleg {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-social-inst:hover path {
+    fill: #c76396;
+}
+.footer-social-you:hover path {
+    fill: #f31111;
+}
+
+.footer-social-vk:hover path {
+    fill: #5181b8;
+}
+
+.footer-social-teleg:hover path {
+    fill: rgb(51, 144, 236);
+}

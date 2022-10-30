@@ -1,0 +1,7 @@
+.next-game{
+height: calc(50% - 8px);
+    margin-bottom: 16px;
+}
+.prev-game {
+   height: calc(50% - 8px);
+}
